@@ -1,0 +1,84 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+.textContainer {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.title{
+   font-size: 20px;
+   font-weight: 500;
+}
+.nameAndYear{
+    font-size: 20px;
+    font-weight: 300;
+}
+.container:hover > .title {
+    color: white;
+}
+hr {
+    width: 600px;
+}
+.filterIcon {
+    width: 20px;
+    height: 20px;
+    transition: 1s transform;
+}
+.filterIconAnimated {
+    width: 20px;
+    height: 20px;
+    transition: 1s transform;
+    transform: rotateX(180deg);
+}
+.iconText {
+    cursor: pointer;
+}
+.iconContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.orderContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderItemsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 120px;
+    margin-top: 5px;
+    margin-left: 60px;
+    border: 2px solid #FF6000;
+    border-radius: 4px;
+}
+.orderItemsContainer div {
+    margin-top: 10px;
+}
+.orderItemsContainer div:hover {
+    color: #FF6000;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+    .title{
+        font-size: 30px;
+        font-weight: 500;
+     }
+     .nameAndYear{
+         font-size: 30px;
+         font-weight: 300;
+     }
+     .orderContainer {
+        width: 600px;
+    }
+    .container {
+        width: 600px;
+        
+    }
+  }

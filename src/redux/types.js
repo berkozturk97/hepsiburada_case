@@ -1,0 +1,1 @@
+export const SEARCH_NEW_QUERY = "SEARCH_NEW_QUERY";

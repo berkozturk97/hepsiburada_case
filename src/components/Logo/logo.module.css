@@ -1,0 +1,6 @@
+  .appLogo {
+    transition: 1s transform;
+  }
+  .appLogo:hover {
+      transform: rotateY(180deg);
+  }
